@@ -7,24 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="Ashirvad.jpg" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-   
-        <div class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skill">Skill</a>
-            <a href="#p">Project</a>
-            <a href="#c">Contact</a>
-        </div>
     <div id="main">
+        <div class="navbar">
+            <div><a href="#home">Home</a></div>
+            <div><a href="#about">About</a></div>
+            <div><a href="#skill">Skill</a></div>
+            <div><a href="#p">Project</a></div>
+            <div><a href="#c">Contact</a></div>
+        </div>
+        
         <div id="home">
             <div class="intro">
-                <p>Myself Ashirvad kumar</p>
-                <P>I am a</P>
-                <p>Java backend developer</p>
-                <a href="https://drive.google.com/file/d/1cyECUtEOQUUWTxNsQfL9FhYNjPL8G-HK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                <div><p>Myself Ashirvad kumar</p></div>
+                <div><P>I am a</P></div>
+                <div><p>Java backend developer</p></div>
+                <div class="resgit">
+                    <a href="https://drive.google.com/file/d/1LbFSiy7IzWNtf8TKBiW1LZPfBIbMqX_V/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href="https://github.com/Ashirvad121"  target="_blank">Github</a>
+                </div>
+                
             </div>
             <div class="pic">
                 <img  src="Ashirvad.jpg" alt="">
@@ -78,175 +83,3 @@
 </div>
 </body>
 </html>
-<Style>
-    *{
-        font-family: 'Akshar', sans-serif;
-    }
-    #main{
-        /* border: 1px solid red; */
-        height: auto;
-        margin-bottom: 30px;
-        padding-top: 50px;
-    }
-    .navbar{
-        /* border: 1px solid red; */
-        width: 100%;
-        height: 4rem;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        /* margin-bottom: 30px; */
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        background-color: #dadde6;
-        margin: auto;
-        position: fixed;
-        top: 0%;
-    }
-    .navbar > a{
-        text-decoration: none;
-        font-size: 32px;
-        color: black;
-
-    }
-    .navbar > a:hover{
-        text-decoration: underline;
-    }
-    #home{
-        width: 90%;
-        height: 20rem;
-        /* border: 1px solid red; */
-        margin: auto;
-        display: flex;
-        margin-top: 30px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-      
-    }
-    #home > div{
-        width: 30%;
-        height: 100%;
-        margin: auto;
-        /* border: 1px solid red; */
-    }
-    #home p{
-        font-size: 32px;
-        color: black;
-    }
-    #home a{
-        font-size: 32px;
-        color: black;
-        text-decoration: none;
-        border: 3px solid #4070f4;
-        background-color: #4070f4;
-        border-radius: 5px;
-    }
-    #home a:hover{
-        background-color: white;
-        color: black;
-    }
-    .pic > img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-    #about{
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        width: 90%;
-        margin: auto;
-        height: 10rem;
-        margin-top: 30px;
-    }
-    #about > div{
-        width: 80%;
-        margin: auto;
-    }
-    #about p{
-        font-size: 22px;
-        text-align: center;
-    }
-    #about h1{
-        text-align: center;
-    }
-    #skill{
-        width: 90%;
-        height: 20rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        margin: auto;
-        margin-top: 30px;
-    }
-    #skill h1{
-        text-align: center;
-    }
-    .allskillimg{
-        display: flex;
-    }
-    .allskillimg div{
-        width: 18%;
-        height: 100%;
-        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-        margin: auto;
-        height: 14rem;
-    }
-    .allskillimg img{
-        width: 100%;
-        height: 100%;
-    }
-    .pro{
-        width: 90%;
-        height: 40rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        margin: auto;
-        margin-top: 30px;
-    }
-    .pro  h1{
-        text-align: center;
-    }
-    .pro > div{
-        width: auto;
-        
-    }
-    .project{
-        display: flex;
-        margin: auto;
-
-    }
-    .project >div{
-        width: 40%;
-        height: 35rem;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        margin: auto;
-    }
-    .project img{
-        width: 100%;
-        height: 100%;
-    }
-    .contact{
-        width: 90%;
-        height: auto;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        margin: auto;
-        margin-top: 30px;
-    }
-    .contact h1{
-        text-align: center;
-    }
-    .conimg{
-        display: flex;
-    }
-    .conimg div{
-        width: 25%;
-        margin: auto;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        height: 5rem;
-    }
-    .conimg h3{
-        font-size: 24px;
-    }
-    .conimg a{
-        font-size: 28px;
-        text-decoration: none;
-        color: black;
-        font-weight: 800;
-        padding-top: 15px;
-        display: block;
-    }
-</Style>

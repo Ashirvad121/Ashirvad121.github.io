@@ -1,0 +1,257 @@
+  *{
+        font-family: 'Akshar', sans-serif;
+    }
+   
+    .navbar{
+        border: 1px solid red;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        /* margin-bottom: 30px; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #dadde6;
+        margin: auto;
+        position: fixed;
+        top: 0%;
+        
+    }
+    #main{
+        border: 1px solid red;
+        height: auto;
+        margin-bottom: 30px;
+        padding-top: 50px;
+        width: 100%;
+    }
+    .navbar  a{
+        text-decoration: none;
+        font-size: 32px;
+        color: black;
+
+    }
+    .navbar > a:hover{
+        text-decoration: underline;
+    }
+    #home{
+        width: 90%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        margin-top: 30px;
+        flex-wrap: wrap-reverse;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        padding-bottom: 50px;
+    }
+    
+    #home p{
+        font-size: 32px;
+        color: black;
+    }
+    .intro{
+        width: 40%;
+        height: 100%;
+        border: 1px solid red;
+        margin: auto;
+    }
+    
+    .pic{
+        width: 40%;
+        height: 100%;
+        border: 1px solid red;
+        margin: auto;
+    }
+    .resgit{
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        width: 60%;
+        flex-wrap: wrap;
+    }
+    #home a{
+        font-size: 32px;
+        color: black;
+        text-decoration: none;
+        border: 3px solid #4070f4;
+        background-color: #4070f4;
+        border-radius: 5px;
+    }
+    #home a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .pic > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    #about{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        width: 85%;
+        margin: auto;
+        height: auto;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    #about > div{
+        width: 80%;
+        margin: auto;
+    }
+    #about p{
+        font-size: 22px;
+        text-align: center;
+    }
+    #about h1{
+        text-align: center;
+    }
+    #skill{
+        width: 85%;
+        height: auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    #skill h1{
+        text-align: center;
+    }
+    .allskillimg{
+        display: flex;
+    }
+    .allskillimg div{
+        width: 18%;
+        height: 100%;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        margin: auto;
+        height: 14rem;
+    }
+    .allskillimg img{
+        width: 100%;
+        height: 100%;
+    }
+    .pro{
+        width: 85%;
+        height: 40rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    .pro  h1{
+        text-align: center;
+    }
+    .pro > div{
+        width: auto;
+        
+    }
+    .project{
+        display: flex;
+        margin: auto;
+
+    }
+    .project >div{
+        width: 40%;
+        height: 35rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin: auto;
+    }
+    .project img{
+        width: 100%;
+        height: 100%;
+    }
+    .contact{
+        width: 85%;
+        height: auto;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 30px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+    .contact h1{
+        text-align: center;
+    }
+    .conimg{
+        display: flex;
+    }
+    .conimg div{
+        width: 25%;
+        margin: auto;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+        height: auto;
+    }
+    .conimg h3{
+        font-size: 24px;
+    }
+    .conimg a{
+        font-size: 28px;
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+        /* padding-top: 10px; */
+        display: block;
+    }
+    @media all and (min-width:200px) and (max-width:750px){
+        #main{
+        border: 1px solid red;
+        width: 100%;
+        height: auto;
+        /* margin-bottom: 30px; */
+        /* padding-top: 50px; */
+       
+    }
+        #home{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        padding-bottom: 50px;
+    }
+    .intro{
+        width: 100%;
+        height: auto;
+        border: 1px solid blue;
+    }
+    .pic{
+        width: 100%;
+        height: auto;
+    }
+    .allskillimg{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 200px 200px;
+        gap:  20px;
+    }
+    .allskillimg > div{
+        width: 100%;
+        height: 100%;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 300px 300px;
+        gap:  20px;
+    }
+    .project > div{
+        width: 100%;
+        height: 100%;
+    }
+    .conimg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 100px;
+        gap:  20px;
+    }
+    .conimg > div{
+        width: 100%;
+        height: 100%;
+    }
+    }
