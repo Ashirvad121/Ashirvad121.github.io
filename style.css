@@ -163,12 +163,12 @@
         height: 100%;
     }
     .contact{
-        width: 85%;
+        width: 88%;
         height: auto;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
         margin: auto;
         margin-top: 30px;
-        padding: 30px;
+        padding: 10px;
         /* display: flex; */
         /* flex-wrap: wrap; */
     }
@@ -176,14 +176,21 @@
         text-align: center;
     }
     .conimg{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px;
+        gap:  5px;
     }
-    .conimg div{
+    .conimg > div{
+        width: 100%;
+        height: 100%;
+    }
+    /* .conimg div{
         width: 25%;
         margin: auto;
         /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-        height: auto;
-    }
+        /* height: auto; */
+    /* } */ */
     .conimg h3{
         font-size: 24px;
     }
@@ -234,24 +241,31 @@
         width: 100%;
         height: 100%;
     }
+    #p{
+        height: auto;
+        width: 100%;
+    }
     .project{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 300px 300px;
+        grid-template-rows: auto ;
         gap:  20px;
     }
     .project > div{
         width: 100%;
         height: 100%;
+        /* display: flex; */
+        
     }
     .conimg{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 100px;
+        grid-template-rows: auto;
         gap:  20px;
     }
     .conimg > div{
         width: 100%;
         height: 100%;
+        /* border: 1px solid red; */
     }
     }
