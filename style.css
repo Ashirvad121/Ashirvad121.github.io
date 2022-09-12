@@ -3,7 +3,7 @@
     }
    
     .navbar{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         height: auto;
         display: flex;
@@ -19,7 +19,7 @@
         
     }
     #main{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: auto;
         margin-bottom: 30px;
         padding-top: 50px;
@@ -53,14 +53,14 @@
     .intro{
         width: 40%;
         height: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: auto;
     }
     
     .pic{
         width: 40%;
         height: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: auto;
     }
     .resgit{
@@ -197,7 +197,7 @@
     }
     @media all and (min-width:200px) and (max-width:750px){
         #main{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         height: auto;
         /* margin-bottom: 30px; */
@@ -218,7 +218,7 @@
     .intro{
         width: 100%;
         height: auto;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
     .pic{
         width: 100%;
