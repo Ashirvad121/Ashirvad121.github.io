@@ -228,6 +228,7 @@
         /* border: 1px solid blue; */
     }
     .pic{
+        margin-top: 30px;
         width: 100%;
         height: auto;
     }
@@ -256,6 +257,9 @@
         height: 100%;
         /* display: flex; */
         
+    }
+    #c{
+        width: 100%;
     }
     .conimg{
         display: grid;
