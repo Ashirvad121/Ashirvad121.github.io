@@ -455,6 +455,10 @@ nav .fas{
 }
 
 @media only screen and (max-width: 600px){
+    .services-list img:hover{
+        background: #080808;
+        transform: translateX(0px);
+    }
     .header-text{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -475,9 +479,7 @@ nav .fas{
         gap: 30px;
     }
     
-    .header-text > div{
-        /* border: 1px solid red; */
-    }
+   
 
     .header-text{
         font-size: 16px;
