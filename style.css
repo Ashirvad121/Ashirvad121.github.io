@@ -457,7 +457,7 @@ nav .fas{
 @media only screen and (max-width: 600px){
     .services-list img:hover{
         background: #080808;
-        transform: translateX(0px);
+        transform: translateX(1px);
     }
     .header-text{
         display: grid;
