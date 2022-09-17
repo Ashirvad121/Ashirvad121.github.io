@@ -90,7 +90,7 @@ nav ul li a:hover::after{
     
 }
 .regi > div{
-    width: 150px;
+    width: auto;
     height: auto;
     border-radius: 10px;
     border: 2px solid #ff004f;
@@ -233,7 +233,11 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
     margin-top: 50px;
+   
     /* border: 1px solid red; */
+}
+.services-list >div:hover{
+    background-color: #ff004f;
 }
 
 /* .services-list div{
@@ -457,7 +461,7 @@ nav .fas{
 @media only screen and (max-width: 600px){
     .services-list img:hover{
         background: #080808;
-        transform: none;
+        transform: translateY(5px);
     }
     .header-text{
         display: grid;
