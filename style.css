@@ -452,13 +452,53 @@ form .btn2{
 .copyright i{
     color: #ff004f;
 }
-
+.contbox > h2{
+    font-size: 40px;
+}
+.condiv{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px;
+    gap: 30px;
+    background-color: #262626;
+    border-radius: 20px;
+}
+.condiv > div{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.condiv p{
+    font-size: 24px;
+}
+.condiv a{
+    text-decoration: none;
+    color: white;
+}
 /* ----------------------css for small screens----------------------- */
 nav .fas{
     display: none;
 }
 
 @media only screen and (max-width: 600px){
+    .condiv{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,80px);
+        gap: 10px;
+        background-color: #262626;
+        border-radius: 20px;
+    }
+    .condiv > div{
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
     .services-list img:hover{
         background: #080808;
         transform: translateY(5px);
