@@ -99,13 +99,15 @@ nav ul li a:hover::after{
 }
 .regi a{
     text-decoration: none;
-    color: #a11944;
+    color: #fff;
     /* background-color: #fff; */
 }
 .regi div:hover{
     color: #fff;
-    background-color: #fff;
+    background-color: #262626;
     cursor: pointer;
+    border: 3px solid #fff;
+    transform: translateY(5px);
 }
 .mypic img{
     width: 100%;
