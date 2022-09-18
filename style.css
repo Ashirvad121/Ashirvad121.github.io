@@ -455,6 +455,10 @@ form .btn2{
 .contbox > h2{
     font-size: 40px;
 }
+.condiv :hover{
+    background-color: #ff004f;
+    cursor: pointer;
+}
 .condiv{
     margin-top: 50px;
     display: grid;
