@@ -557,7 +557,7 @@ form .btn2{
     flex-direction: column;
     justify-items: center;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: scroll;
     
 }
 .st div:hover{
