@@ -126,7 +126,10 @@ nav ul li a:hover::after{
     margin-top: 50px;
     /* border: 1px solid red; */
     background-color: #262626;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+}
+.skill h2,h3{
+    padding: 10px;
 }
 .skill div{
     /* border: 1px solid red; */
@@ -300,6 +303,10 @@ nav ul li a:hover::after{
     height: 500px;
     overflow: hidden;
 }
+.work-list img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 .work-list :hover{
     /* background-color: #ff004f; */
     cursor: pointer;
@@ -446,6 +453,7 @@ form .btn2{
 .contbox > h2{
     font-size: 40px;
 }
+
 .condiv :hover{
     background-color: #ff004f;
     cursor: pointer;
@@ -472,12 +480,141 @@ form .btn2{
     text-decoration: none;
     color: white;
 }
+.gitpic{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.gitpic img{
+    width: 100%;
+}
+.gitc{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.gitc h1{
+    font-size: 60px;
+    padding-top: 50px;
+}
+.techh1{
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+.tsr1{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tsr1 div{
+    width: 20%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.tsr1 div:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.tsr1 img{
+    width: 100%;
+    height: 100%;
+}
+.stat{
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-bottom: 50px;
+}
+.stat h1{
+    margin-bottom: 50px;
+    font-size: 60px;
+    
+}
+.st{
+    /* width: 100%; */
+    /* height: 150px; */
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.st > div{
+    border: 3px solid #262626;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+}
+.stinfo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+.st div:hover{
+    transform: scale(1.05);
+    background-color: #ababab;
+    cursor: pointer;
+}
+.stinfot{
+    font-size: 49px;
+    color: #ff004f;
+    
+    margin: auto;
+}
+.stinfob{
+    font-size: 29px;
+    margin: auto;
+    color: #ff004f;
+}
+.stinfob p{
+    text-align: center;
+}
+.contbox h1{
+    font-size: 60px;
+    margin-top: 50px;
+}
 /* ----------------------css for small screens----------------------- */
 nav .fas{
     display: none;
 }
 
 @media only screen and (max-width: 600px){
+    .gitc{
+        margin-top: 350px;
+    }
+    .st{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .tsr1{
+        width: 80%;
+        height: 400px;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .tsr1 div{
+        width: 40%;
+        height: auto;
+        margin-bottom: 20px;
+        /* border: 1px solid red; */
+    }
     .condiv{
         margin-top: 50px;
         display: grid;
@@ -517,9 +654,15 @@ nav .fas{
         grid-template-rows: auto;
         gap: 30px;
     }
-    
-   
-
+    .gitc h1{
+        font-size: 40px;
+    }
+   .stat h1{
+    font-size: 40px;
+   }
+   .contbox h1{
+    font-size: 40px;
+   }
     .header-text{
         font-size: 16px;
         margin-left: -20px;
