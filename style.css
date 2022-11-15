@@ -26,6 +26,7 @@ body{
 
 .container{
     padding: 10px 10%;
+    
     /* border: 1px solid red; */
 }
 
@@ -36,6 +37,10 @@ nav{
     flex-wrap: wrap;
     position: fixed;
     background-color: black;
+    margin-top: -10px;
+    height: 80px;
+    width: 100%;
+    
 }
 
 nav ul li{
@@ -47,9 +52,9 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     position: relative;
-
+   
 }
 
 nav ul li a::after{
@@ -615,12 +620,7 @@ form .btn2{
 .proimg img{
     height: 300px;
 }
-.live{
-    border: 1px solid red ;
-    /* width: 200px; */
-    height: 50px;
-    border-radius: 15px;
-}
+
 /* .live a{
     text-decoration: none;
     font-size: 24px;
@@ -638,18 +638,48 @@ form .btn2{
     text-align: center;
    border-radius: 10px;
 }
+
 /* ----------------------css for small screens----------------------- */
 nav .fas{
     display: none;
 }
 
+@media all and (min-width: 200px) and (max-width:800px){
+    #music{
+        font-size: 16px;
+        height: 60px;
+
+    }
+    .header-text{
+        /* border: 1px solid red; */
+    }
+    #header{
+        /* border: 1px solid red;  */
+        
+    }
+    .container{
+        /* border: 1px solid red; */
+        height: auto;
+    }
+    .header-text{
+        /* border: 1px solid red; */
+    }
+    #about{
+        /* border:  1px solid red; */
+    }
+}
+
 @media only screen and (max-width: 600px){
+
     .click{
         font-size: 14px;
     }
-    .links{
+    /* .links{
         height: 40px;
-    }
+        font-size: 12px;
+
+    } */
+    
     .gitc{
         margin-top: 350px;
     }
