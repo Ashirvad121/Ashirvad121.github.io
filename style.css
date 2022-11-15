@@ -21,6 +21,7 @@ body{
     /* background-image: url(images/IMG_20220914_194622.jpg); */
     background-size: cover;
     background-position: center;
+   
 }
 
 .container{
@@ -33,7 +34,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    position: fixed;
+    background-color: black;
 }
 
 nav ul li{
@@ -592,6 +594,7 @@ form .btn2{
     height: 85px;
     margin-top: 5%;
 }
+
 .click{
     display: flex;
     width: 35%;
@@ -611,6 +614,29 @@ form .btn2{
 }
 .proimg img{
     height: 300px;
+}
+.live{
+    border: 1px solid red ;
+    /* width: 200px; */
+    height: 50px;
+    border-radius: 15px;
+}
+/* .live a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+} */
+#music {
+    border: 1px solid #ff004f;
+    color: white;
+    font-size: 24px;
+    display: block;
+    height: 50px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 35%;
+    text-align: center;
+   border-radius: 10px;
 }
 /* ----------------------css for small screens----------------------- */
 nav .fas{
